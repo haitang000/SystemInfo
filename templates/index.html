@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>服务器运行状态</title>
+    <link rel="stylesheet" href="/static/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>服务器运行状态</h1>
+      <div id="status">
+        <p>总内存: <span id="totalMemory"></span> MB</p>
+        <p>剩余内存: <span id="freeMemory"></span> MB</p>
+        <p>已用内存: <span id="usedMemory"></span> MB</p>
+        <p>内存使用率: <span id="memoryUsage"></span>%</p>
+        <p>CPU 使用率: <span id="cpuUsage"></span>%</p>
+      </div>
+    </div>
+    <script src="/static/status.js"></script>
+  </body>
+</html>
